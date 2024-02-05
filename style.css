@@ -7,7 +7,7 @@
 p {
   text-align: right;
   font-size: 18px;
-  padding: 15px;
+  padding-top: 10px;
 }
 
 .onlymargin {
@@ -16,6 +16,12 @@ p {
 
 .pcolor, footer {
   background-color: #5c5c5c;
+}
+.dcolor{
+  background-color:#d5cdcd;
+}
+.blackcolor{
+  background-color:#000000;
 }
 
 .perpelColor {
@@ -54,6 +60,11 @@ a:hover {
 .formbgcolor {
   background-color: #d5d5d5;
 }
+.greybgcolor {
+  background-color: #e6e2d3;
+}
+
+
 
 .card {
   --bs-card-spacer-y: 1rem;
@@ -112,5 +123,15 @@ a:hover {
 .form-control {
   display: block;
   width: 80%;
+}
+
+h3{
+  background-color: #ffffff;
+  text-align: center;
+  
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  
 }
 /*# sourceMappingURL=style.css.map */
